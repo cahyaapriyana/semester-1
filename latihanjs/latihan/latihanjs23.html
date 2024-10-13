@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initialscale=1.0">
+<title>Menghitung Umur</title>
+</head>
+<body>
+<label for="birthdate">Tanggal Lahir:</label>
+<input type="date" id="birthdate">
+<button onclick="calculateAge()">Hitung Umur</button>
+<p>Umur Anda: <span id="ageResult">0</span> tahun</p>
+<script>
+function calculateAge() {
+let birthdate = new
+Date(document.getElementById("birthdate").value);
+let today = new Date();
+let age = today.getFullYear() -
+birthdate.getFullYear();
+let m = today.getMonth() - birthdate.getMonth();
+if (m < 0 || (m === 0 && today.getDate() <
+birthdate.getDate())) {
+age--;
+}
+document.getElementById("ageResult").innerHTML = age;
+}
+</script>
+</body>
+</html>

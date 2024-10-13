@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initialscale=1.0">
+<title>Menyembunyikan dan Menampilkan Elemen</title>
+</head>
+<body>
+<p id="myParagraph">Ini adalah paragraf yang dapat
+disembunyikan atau ditampilkan.</p>
+<button onclick="toggleParagraph()">Sembunyikan/Tampilkan
+Paragraf</button>
+<script>
+function toggleParagraph() {
+let paragraph =
+document.getElementById("myParagraph");
+if (paragraph.style.display === "none") {
+paragraph.style.display = "block";
+} else {
+paragraph.style.display = "none";
+}
+}
+</script>
+</body>
+</html>

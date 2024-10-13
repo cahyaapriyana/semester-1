@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initialscale=1.0">
+<title>Mengganti Warna Latar Belakang</title>
+</head>
+<body>
+<input type="color" id="bgColor" value="#ffffff">
+<button onclick="changeBackgroundColor()">Ganti
+Warna</button>
+<script>
+function changeBackgroundColor() {
+let color = document.getElementById("bgColor").value;
+document.body.style.backgroundColor = color;
+}
+</script>
+</body>
+</html>

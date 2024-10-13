@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="taskInput" placeholder="Masukkan tugas">
+<button onclick="addTask()">Tambahkan</button>
+<ul id="taskList"></ul>
+<script>
+function addTask() {
+    let taskInput = document.getElementById("taskInput");
+    let taskText = taskInput.value;
+    if (taskText !== "") {
+        let li = document.createElement("li");
+        li.textContent = taskText;
+        document.getElementById("taskList").appendChild(li);
+        taskInput.value = "";
+    }
+}
+</script>
+</body>
+</html>

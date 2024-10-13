@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initialscale=1.0">
+ <title>Menampilkan Waktu Saat Ini</title>
+</head>
+<body>
+ <p>Waktu saat ini: <span id="clock"></span></p>
+ <script>
+ function updateTime() {
+ let now = new Date();
+ document.getElementById("clock").innerHTML =
+now.toLocaleTimeString();
+ }
+ setInterval(updateTime, 1000);
+ updateTime();
+ </script>
+</body>
+</html>

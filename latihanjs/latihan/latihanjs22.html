@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initialscale=1.0">
+<title>Kalkulator Sederhana</title>
+</head>
+<body>
+<input type="number" id="num1" placeholder="Angka pertama">
+<input type="number" id="num2" placeholder="Angka kedua">
+<select id="operation">
+<option value="add">Tambah</option>
+<option value="subtract">Kurang</option>
+<option value="multiply">Kali</option>
+<option value="divide">Bagi</option>
+</select>
+<button onclick="calculate()">Hitung</button>
+<p>Hasil: <span id="calcResult">0</span></p>
+
+ <script>
+function calculate() {
+let num1 =
+parseFloat(document.getElementById("num1").value);
+let num2 =
+parseFloat(document.getElementById("num2").value);
+let operation =
+document.getElementById("operation").value;
+let result = 0;
+switch(operation) {
+case "add":
+result = num1 + num2;
+break;
+case "subtract":
+result = num1 - num2;
+break;
+case "multiply":
+result = num1 * num2;
+break;
+case "divide":
+result = num1 / num2;
+break;
+}
+document.getElementById("calcResult").innerHTML =
+result;
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<SCRIPT language="javascript">
+function hitung()
+{
+panjang = document.myform.p.value;
+// mengambil nilai panjang dari form myform dengan nama p
+lebar = document.myform.l.value;
+// mengambil nilai lebar dari form myform dengan nama l
+luas = panjang * lebar;
+// menghitung luas dengan rumus panjang dikali lebar
+document.myform.luas.value = luas;
+// menampilkan hasil luas ke dalam form myform dengan nama luas
+}
+</SCRIPT>
+</HEAD>
+<BODY>
+<FORM name="myform">
+Panjang = <INPUT type="text" name="p"><BR>
+Lebar = <INPUT type="text" name="l"><BR>
+<INPUT type="button" name="aksi"
+value="HITUNG" onclick="hitung()"><BR>
+// memanggil fungsi hitung ketika tombol hitung diklik
+Luas = <INPUT type="text" name="luas"><BR>
+</FORM>
+</BODY>
+</HTML>

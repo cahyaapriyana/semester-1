@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<SCRIPT language="javascript">
+function timer()
+{
+var waktu = new Date();
+// mendapatkan waktu saat ini
+var jam = waktu.getHours();
+var menit = waktu.getMinutes();
+var detik = waktu.getSeconds();
+var strwaktu = (jam<10) ? "0" + jam : jam;
+// menambahkan 0 jika jam kurang dari 10
+strwaktu += (menit<10) ? ":0" + menit : ":" + menit;
+// menambahkan 0 jika menit kurang dari 10
+strwaktu += (detik<10) ? ":0" + detik : ":" + detik;
+// menambahkan 0 jika detik kurang dari 10
+document.waktusaya.txtwaktu.value=strwaktu;
+setTimeout("timer()",1000);
+// memanggil fungsi timer setiap 1000 milidetik (1 detik)
+}
+</SCRIPT>
+</HEAD>
+<BODY>
+<FORM name="waktusaya">
+<INPUT type="text" name="txtwaktu">
+</FORM>
+<SCRIPT language="javascript"> timer() </SCRIPT>
+</BODY>
+</HTML>

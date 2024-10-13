@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<SCRIPT language="javascript">
+var warna = new Array("red","yellow","green");
+var count= 0;
+// inisialisasi variabel count
+function ganti()
+{
+count++;
+if (count>=warna.length)
+// jika count melebihi panjang array, reset ke 0
+count=0;
+document.bgColor = warna[count];
+}
+</SCRIPT>
+</HEAD>
+<BODY>
+<FORM>
+<INPUT type="button" value="Ganti Background" onClick="ganti()">
+</FORM>
+</BODY>
+</HTML>
