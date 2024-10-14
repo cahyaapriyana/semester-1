@@ -1,0 +1,6 @@
+- Git init  *membuat repo git master
+- git add . *untuk semua file yang staging area
+- git commit -m "pesan" *untuk commit
+- git commit -am "pesan" *add sekaligus commit langsung"
+- git log --all --decorate --oneline --graph *menampilkan graph
+- alias graph="git log --all --decorate --oneline --graph" *membuat alias menapilhkan graph
