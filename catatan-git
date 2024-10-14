@@ -8,4 +8,9 @@
 - git merge --merge *untuk mengecek branch mana yang sudah di merge)
 - git branch -d namabranch *menghapus branch yang sudah di merge
 - git branch -D namabranch *menghapus branch langsung 'tanpa cek udah dimerge atau belum !!!!'
+- git status * mengecek status git
+- git checkout *ganti branch
+- git clone url * clone dari https
+- git remote * mengecek remote (kalo bisa semuanya uptodate)
+
 
