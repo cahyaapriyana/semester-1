@@ -6,4 +6,6 @@
 - alias graph="git log --all --decorate --oneline --graph" *membuat alias menampilkan graph
 - git merge namabracnh (sebelum merge, pindah ke branch master terlebih dahulu)
 - git merge --merge *untuk mengecek branch mana yang sudah di merge)
-- git branch -d namabranch *menghapus branch
+- git branch -d namabranch *menghapus branch yang sudah di merge
+- git branch -D namabranch *menghapus branch langsung 'tanpa cek udah dimerge atau belum !!!!'
+
