@@ -14,4 +14,5 @@
 - git remote * mengecek remote (kalo bisa semuanya uptodate)
 - git fetch *mengecek yang dilocal dan diremote, habis itu git status
 - git pull *mengambil yang ada di remote
+-- CATATAN : KALO TIDAK BISA DI PUSH, PULL TERLEBIH DAHULU, HABIS ITU GIT ADD, TERUS GIT COMMIT, TERUS GIT PUSH !!!---
 
