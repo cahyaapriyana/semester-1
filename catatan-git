@@ -12,5 +12,6 @@
 - git checkout *ganti branch
 - git clone url * clone dari https
 - git remote * mengecek remote (kalo bisa semuanya uptodate)
+- git fetch *mengecek yang dilocal dan diremote, habis itu git status
 
 
