@@ -17,3 +17,4 @@
 -- CATATAN : KALO TIDAK BISA DI PUSH, PULL TERLEBIH DAHULU, HABIS ITU GIT ADD, TERUS GIT COMMIT, TERUS GIT PUSH !!!---
 - git remote -v
 - git remote -v add namaorigin urlhttpsasli *menambahkan origin remote
+- git fetch namaorigin
