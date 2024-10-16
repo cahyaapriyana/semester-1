@@ -31,4 +31,4 @@ untuk ektensi
 
 untuk tim> pilih setting di reponya>pilih tab kolab> tambahkan anggota tim
 biasakan untuk merge branch, pull terlebih dahulu dari masternya
-git rebase master
+git rebase master <gantian dari branch dulu lalu master> git rebase branchmerge
