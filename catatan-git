@@ -20,3 +20,11 @@
 - git remote -v
 - git remote -v add namaorigin urlhttpsasli *menambahkan origin remote
 - git fetch namaorigin
+-- Git Ignore--
+Buat file dengan nama .gitignore
+didalam filenya bisa berisi file seperti contoh
+index.html
+untuk folder
+folder/
+untuk ektensi
+*.exe
