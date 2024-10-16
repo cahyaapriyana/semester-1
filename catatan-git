@@ -30,3 +30,5 @@ untuk ektensi
 *.exe
 
 untuk tim> pilih setting di reponya>pilih tab kolab> tambahkan anggota tim
+biasakan untuk merge branch, pull terlebih dahulu dari masternya
+git rebase master
