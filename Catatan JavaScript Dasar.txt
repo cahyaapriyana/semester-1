@@ -1,3 +1,4 @@
 <script></script> // Tag untuk Javascript
 <script src="scrips.js"></script> // Javacript ekternal
 console.log("hello word"); // menampikan di console
+prompt("masukan nama anda"); // input di pop up
