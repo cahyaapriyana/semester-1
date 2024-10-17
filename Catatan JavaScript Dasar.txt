@@ -2,3 +2,5 @@
 <script src="scrips.js"></script> // Javacript ekternal
 console.log("hello word"); // menampikan di console
 prompt("masukan nama anda"); // input di pop up
+Jenis Jenis Variabel Javascript
+let, var , cons (tidak dapat berubah)
