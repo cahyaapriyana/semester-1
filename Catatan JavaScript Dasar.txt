@@ -4,3 +4,7 @@ console.log("hello word"); // menampikan di console
 prompt("masukan nama anda"); // input di pop up
 Jenis Jenis Variabel Javascript
 let, var , cons (tidak dapat berubah)
+pemanggilan variabel dengan mudah yaitu menggunakan backtick (tombol sebelah kirim angka 1)
+contoh
+document.write(`Nama Saya ${namaLet} dan umur saya adalah ${umur} Tahun`);
+
