@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan CSS Grid</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        display: grid;
+        grid-template-areas:
+          "header header"
+          "sidebar main"
+          "footer footer";
+        grid-gap: 10px;
+        padding: 10px;
+      }
+      .header {
+        grid-area: header;
+        background-color: #4cafa0;
+        padding: 20px;
+        color: white;
+        text-align: center;
+      }
+      .sidebar {
+        grid-area: sidebar;
+        background-color: #f4f4f4;
+        padding: 20px;
+      }
+      .main {
+        grid-area: main;
+        background-color: #ddd;
+        padding: 20px;
+      }
+      .footer {
+        grid-area: footer;
+        background-color: #4cafa0;
+        padding: 20px;
+        color: white;
+        text-align: center;
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          grid-template-areas:
+            "header"
+            "main"
+            "sidebar"
+            "footer";
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">Header</div>
+      <div class="sidebar">Sidebar</div>
+      <div class="main">Main Content</div>
+      <div class="footer">Footer</div>
+    </div>
+  </body>
+</html>

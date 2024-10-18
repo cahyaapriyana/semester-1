@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan Flexbox</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+      }
+      .item {
+        background-color: #13c6b7;
+        padding: 20px;
+        margin: 10px 0;
+        text-align: center;
+      }
+
+      @media (min-width: 1080px) {
+        .container {
+          flex-direction: row;
+          justify-content: space-between;
+        }
+        .item {
+          flex-basis: 25%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">Item 1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Item 3</div>
+      <div class="item">Item 4</div>
+    </div>
+  </body>
+</html>
