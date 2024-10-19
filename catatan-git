@@ -34,4 +34,3 @@ biasakan untuk merge branch, pull terlebih dahulu dari masternya
 git rebase master <gantian dari branch dulu lalu master> git rebase branchmerge
 
 
-test push github
