@@ -7,4 +7,5 @@ let, var , cons (tidak dapat berubah)
 pemanggilan variabel dengan mudah yaitu menggunakan backtick (tombol sebelah kirim angka 1)
 contoh
 document.write(`Nama Saya ${namaLet} dan umur saya adalah ${umur} Tahun`);
+if else
 
